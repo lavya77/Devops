@@ -1,0 +1,7 @@
+{
+	"nodes":[
+		{"id":"26bd8d7bb977892b","x":-180,"y":-60,"width":260,"height":220,"color":"#541bda","type":"group","label":"MAC OS"},
+		{"id":"b9ad99db7da1e7a5","x":-120,"y":-10,"width":120,"height":90,"color":"2","type":"text","text":"UBUNTU MACHINE"}
+	],
+	"edges":[]
+}
