@@ -1,7 +1,15 @@
 {
 	"nodes":[
-		{"id":"26bd8d7bb977892b","x":-180,"y":-60,"width":260,"height":220,"color":"#541bda","type":"group","label":"MAC OS"},
-		{"id":"b9ad99db7da1e7a5","x":-120,"y":-10,"width":120,"height":90,"color":"2","type":"text","text":"UBUNTU MACHINE"}
+		{"id":"26bd8d7bb977892b","type":"group","x":-180,"y":-60,"width":260,"height":220,"color":"#541bda","label":"MAC OS"},
+		{"id":"766f7d59cf5207af","type":"text","text":"Base Layer","x":-175,"y":980,"width":250,"height":60},
+		{"id":"b9ad99db7da1e7a5","type":"text","text":"UBUNTU MACHINE","x":-120,"y":-10,"width":120,"height":90,"color":"2"},
+		{"id":"0a92868f141b7e02","type":"text","text":"Container 1","x":-175,"y":690,"width":250,"height":60},
+		{"id":"6e75f682295f4ac7","type":"text","text":"Layer 2","x":-175,"y":780,"width":250,"height":60},
+		{"id":"fe21f0869662a993","type":"text","text":"Layer 1","x":-175,"y":880,"width":250,"height":60}
 	],
-	"edges":[]
+	"edges":[
+		{"id":"0d1d4d54a3d213b9","fromNode":"0a92868f141b7e02","fromSide":"bottom","toNode":"6e75f682295f4ac7","toSide":"top"},
+		{"id":"67d67ac5acb1345f","fromNode":"6e75f682295f4ac7","fromSide":"bottom","toNode":"fe21f0869662a993","toSide":"top"},
+		{"id":"3e0fdee30ed27a20","fromNode":"fe21f0869662a993","fromSide":"bottom","toNode":"766f7d59cf5207af","toSide":"top"}
+	]
 }
