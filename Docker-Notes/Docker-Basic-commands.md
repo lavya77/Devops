@@ -50,8 +50,7 @@ docker run hello-world
 	 $ docker run -it ubuntu bash
 
 what it said while generating a container!!
-
-3.**Running container in interactive mode**  :
+3. **Running container in interactive mode**  :
 
 ```
 docker run -it IMAGE_NAME
@@ -88,3 +87,31 @@ docker stop CONT_NAME or CONT_ID
 ```
 docker stop cranky_black
 ```
+
+
+5. SOME more commands:
+
+```
+docker rmi IMAGE_NAME
+```
+
+it is used to remove or destroy Docker images from your system
+
+```
+docker rmi hello-world
+```
+
+it removed hello-world.
+
+
+```
+docker rm CONTAINER_NAME
+```
+
+it is  used to remove any container.
+
+```
+docker rm cranky_black
+```
+
+it removes it.
