@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker-Notes/Docker Image Layers.md",
+                "file": "Docker-Notes/Troubleshoot Commands.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker Image Layers"
+              "title": "Troubleshoot Commands"
             }
           }
         ]
@@ -169,10 +169,11 @@
       "bases:Create new base": false
     }
   },
-  "active": "192f8e6033614a61",
+  "active": "041575986e04856b",
   "lastOpenFiles": [
-    "Docker-Notes/Versions-of-Docker-images.md",
     "Docker-Notes/Docker Image Layers.md",
+    "Docker-Notes/Troubleshoot Commands.md",
+    "Docker-Notes/Versions-of-Docker-images.md",
     "Pasted image 20251022045158.png",
     "Untitled.canvas",
     "Docker-Notes/Docker-Basic-commands.md",
