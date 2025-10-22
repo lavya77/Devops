@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Docker-Notes/Docker network.md",
+                "file": "Docker-Notes/Docker network and development.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Docker network"
+              "title": "Docker network and development"
             }
           }
         ]
@@ -172,7 +172,7 @@
   "active": "041575986e04856b",
   "lastOpenFiles": [
     "Docker-Notes/DOCKER vs VM.md",
-    "Docker-Notes/Docker network.md",
+    "Docker-Notes/Docker network and development.md",
     "Docker-Notes/Troubleshoot Commands.md",
     "Docker-Notes/Versions-of-Docker-images.md",
     "Docker-Notes/Docker Image Layers.md",
