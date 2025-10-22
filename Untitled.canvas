@@ -5,11 +5,15 @@
 		{"id":"b9ad99db7da1e7a5","type":"text","text":"UBUNTU MACHINE","x":-120,"y":-10,"width":120,"height":90,"color":"2"},
 		{"id":"0a92868f141b7e02","type":"text","text":"Container 1","x":-175,"y":690,"width":250,"height":60},
 		{"id":"6e75f682295f4ac7","type":"text","text":"Layer 2","x":-175,"y":780,"width":250,"height":60},
-		{"id":"fe21f0869662a993","type":"text","text":"Layer 1","x":-175,"y":880,"width":250,"height":60}
+		{"id":"fe21f0869662a993","type":"text","text":"Layer 1","x":-175,"y":880,"width":250,"height":60},
+		{"id":"888d0f88fcad4b2a","x":-440,"y":1940,"width":250,"height":60,"color":"#31349b","type":"text","text":"APPLICATION LAYER"},
+		{"id":"c72072816ebd40fe","x":-440,"y":2040,"width":250,"height":60,"color":"2","type":"text","text":"HOST OS KERNEL"},
+		{"id":"63b29b8991306be5","x":-440,"y":2140,"width":250,"height":60,"color":"4","type":"text","text":"HARDWARE"}
 	],
 	"edges":[
 		{"id":"0d1d4d54a3d213b9","fromNode":"0a92868f141b7e02","fromSide":"bottom","toNode":"6e75f682295f4ac7","toSide":"top"},
 		{"id":"67d67ac5acb1345f","fromNode":"6e75f682295f4ac7","fromSide":"bottom","toNode":"fe21f0869662a993","toSide":"top"},
-		{"id":"3e0fdee30ed27a20","fromNode":"fe21f0869662a993","fromSide":"bottom","toNode":"766f7d59cf5207af","toSide":"top"}
+		{"id":"3e0fdee30ed27a20","fromNode":"fe21f0869662a993","fromSide":"bottom","toNode":"766f7d59cf5207af","toSide":"top"},
+		{"id":"b255296cf240cace","fromNode":"888d0f88fcad4b2a","fromSide":"bottom","toNode":"63b29b8991306be5","toSide":"bottom"}
 	]
 }
