@@ -17,6 +17,10 @@ docker network create NETWORK_NAME
 
 By default, Docker gives you networks like `bridge`, `host`, and `none`, but custom networks give you **better control**.
 
+```
+docker network rm ntwork_name
+```
+to delete a network.
 ## Developing with Docker
 
 ```
