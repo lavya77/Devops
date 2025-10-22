@@ -1,7 +1,7 @@
 `Dockerizing` your app, which means putting your application inside a Docker container so it can run anywhere reliably.
 ## Create a `Dockerfile`
 
-A `**Dockerfile** `is a blueprint for building a Docker image of your app.
+A `**Dockerfile`** `is a blueprint for building a Docker image of your app.
 
 **Example: `Node.js` App**
 
@@ -28,3 +28,28 @@ EXPOSE 3000
 CMD ["node", "index.js"]
 
 ```
+known as base image.
+
+## Building Docker Image
+```
+docker build -t myapp:1.0 .
+```
+- `-t myapp:1.0` → name & tag of the image
+    
+- `.` → current directory (where `Dockerfile` is)
+## Run Container
+
+```
+docker run myapp:1.0
+```
+
+```
+docker run-it myapp:1.0 bash
+```
+
+TO run all the multiple images we created we use docker compose,
+
+```
+docker-compose up -d
+```
+
