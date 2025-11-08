@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "DEVOPS/Docker-Notes/Troubleshoot Commands.md",
+                "file": "DEVOPS/Nginix/Introduction.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Troubleshoot Commands"
+              "title": "Introduction"
             }
           }
         ]
@@ -171,6 +171,8 @@
   },
   "active": "041575986e04856b",
   "lastOpenFiles": [
+    "DEVOPS/Docker-Notes/Troubleshoot Commands.md",
+    "DEVOPS/Nginix/Introduction.md",
     "DEVOPS/Nginix",
     "DEVOPS",
     "DEVOPS/Docker-Notes/Docker Volumes.md",
@@ -180,7 +182,6 @@
     "DEVOPS/Docker-Notes/Docker Compose.md",
     "DEVOPS/Docker-Notes/Docker network and development.md",
     "DEVOPS/Docker-Notes/DOCKER vs VM.md",
-    "DEVOPS/Docker-Notes/Troubleshoot Commands.md",
     "DEVOPS/Docker-Notes/Versions-of-Docker-images.md",
     "DEVOPS/Docker-Notes/Docker Image Layers.md",
     "DEVOPS/Docker-Notes/Docker-Basic-commands.md",
